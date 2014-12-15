@@ -1,0 +1,68 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Diff helped pinpoint a difference in how each file loads the content.  In terms of style, wording and 
+layout.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long
+term?
+
+Access to the entire history of a file helps keep on record the details that were omitted
+later on.  These details would be available as a reference or for future use if the situation
+calls for such an occurrence. 
+
+When to Save
+As a programmer, when would you want to have a version of your code saved?
+-At regular intervals (e.g. every hour)
+-Whenever a large enough change is made (e.g. 50 lines)
+-Whenever there is a long pause in editing
+-When you choose to save a version?
+
+I have forgotten to save a file with all of its revisions.  So, I would want my file saved at
+regular intervals.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like
+you do in Git, vs having versions automatically saved, like Google docs does?
+
+Manually creating a commit forces you to take note to an error.  And not let it go by
+unnoticed.  It is a pro to document and know that you need to record the error
+through a commit, or you will forget why the change needed to take place.  Also,
+when the change was taken and in what context.
+A con to manually entering commits is that it is time consuming to do, and one can forget to
+enter commits.  That's where automatic saves come in.  Google docs saves files automatically
+getting rid of the extra step in saving the files.  The problem is that all those saved 
+previous files take up space, and storage.  It can be difficult to know which previous
+version had what missed detail, or revised detail(s) without any commentary notes like commits
+provide for Git.
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one 
+commit, while others, like Google Docs, treat each file separately?
+
+Google Docs does not offer program services that have files interconnect or interface each other. 
+They do not have HTML & CSS capabilities that would call for commits to save grouped files together.
+
+How can you use the commands git log and git diff to view the history of the files?
+
+Git log and git diff are tools that help keep a record of the files that have been revised.
+Git log stores the repository while git diff allows for the user to search for changes made
+in each file, and compare them to previous file versions or commits.
+
+How might using version control make you more confident to make changes that could break something? 
+
+Version control gives one the security in making changes with knowing that his or her work
+is documented and can be searched for again to  make even more additional changes.  And find
+what line(s) could have caused an error in the functionality of the files.  Version control
+allows for bigger changes and exploration to occur with the files that are documented along
+with previous files that are have less significant changes in them.
+
+Now that you have your workspace set up, what do you want to try to use git for?
+
+
+Git seems ideal for storing files for HTML & CSS work.  I would like to find out if Git
+is user friendly for this and cuts time in performing additional work that would exist without
+the implementation of git.
+
+
+ 
+
+
