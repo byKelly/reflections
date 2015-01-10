@@ -1,0 +1,52 @@
+When would you want to use a remote repository rather than keeping all your work
+local?
+
+  A remote repository allows for more users to implement changes to the branch and 
+  commits.  It gives more flexibility and leaves room for more options to use
+  as possible solutions to problems.  Also, creativity is encouraged more so.
+
+
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+ Pulling changes manually keeps you aware of what changes are being finalized
+ and helps progress be tracked better.
+
+Describe the differences between forks, clones, and branches.  When would you
+use one instead of another?
+
+A clone copies a repository which would be useful if you are copying another's 
+repository's work.  Branches are threads of development within a repository.  Each thread 
+may be based on a certain theme or area of improvement.  A thread or branch
+can have commits centered on solving one problem.  A fork is pretty much taking
+what is there in a project and going off doing independent work.
+
+A clone would help if you are trying to help figure out someone else's problem
+that a branch has records of the attempts.  Branches are great when there are multiple
+areas that need attention to and categorizing as well.
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+It acts as a source of recent revisions done for local usage.
+
+
+How would you collaborate without using Git or GitHub?  What would be easier,
+and what would be harder?
+
+The use of the same software where everyone could log on to a system and make changes there.
+Something like CVS.  The pros is that it's well known in its use.  The cons is moving
+or renaming files does not include a version update.  Other cons is that it is not secure and
+it is expensive.  Mercurial is another one that is easier to learn than Git.  It has better
+documentation and distributed model.  But it doesn't have any merging of two parents, is 
+extension based rather than scriptability and is less out of the box powered.
+
+When would you want to make changes in a separate branch rather than directly in
+master?  What benefits does each approach have?
+
+Making changes in a separate branch gives a chance for the user to determine and evaluate
+whether or not the commits are worth while to add to the master branch.  It's a way 
+to eventually filter out those changes that are insignificant or irrevelant to the project
+as whole.
+
+
