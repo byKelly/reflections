@@ -1,0 +1,38 @@
+What happens when you initialize a repository?  Why do you need to do it?
+
+When a repository is created, a git file is created to store grouped files.  A repository 
+keeps track of previous files made that are apart of the same repository.  A repository 
+organizes and keeps files in an orderly manner that is conducive in finding certain
+ones later.
+
+How is the staging area different from the working directory and the repository?  What value do you think it offers?
+
+The staging area is a transitional zone where files can be added and deleted at will to the specified commit.  It 
+allows for more control and change capabilities.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+   The staging area can be organized and labeled differently to suit the need for
+one commit per logical change.
+
+   What are some situations when branches would be helpful in keeping your history organized? 
+   How would branches help?
+   
+   When a bunch of changes occur to one commit that is categorized as a spin off from the other
+   commits including the original commit.  Branches would keep modified commits listed and pertaining to
+   the original commit.  It would be a way to keep a record of what type of changes occurred and 
+   under what category or classification.
+   
+   How do the diagrams help you visualize the branch structure?
+   
+   Diagrams help determine what branches are related to what commits or recent commits.
+   
+   
+  What is the result of merging two branches together? 
+  Why do we represent it in the diagram the way we do?
+  
+  The result of merging two branches is that the commits are linked under one 
+  unified branch.  It is represented by two chain links meeting at a point being unified for
+  easier visual comprehension.
+  
+  
